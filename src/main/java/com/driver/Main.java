@@ -18,8 +18,11 @@ public class Main {
     public static void main(String args[]){
 
         Product p=new Product();
-        System.out.println(p.Product(3,4));
-        System.out.println(p.Product(4,6,2));
-        System.out.println(p.Product(2,3));
+        int ans1 = p.Product(3,4);
+        int ans2 = p.Product(4,6,2);
+        double ans3 = p.Product(2,3);
+
+        System.out.println(ans1+" "+ans2+" "+ans3);
+
     }
 }
